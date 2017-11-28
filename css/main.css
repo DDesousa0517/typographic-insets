@@ -96,15 +96,10 @@ main::first-letter {
   border-bottom: 3px solid #333;
   float: left;
   padding: .4em .2em;
-  margin: .5rem;
 }
 
 figure {
   width: 300px;
-  float: right;
-}
-
-img {
   float: right;
   border-top: 3px solid #333;
   padding-top: 6px;
@@ -117,7 +112,6 @@ figcaption {
 }
 
 blockquote {
-  font-size: 1.5rem;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
   padding-bottom: 6px;
@@ -125,4 +119,9 @@ blockquote {
   width: 300px;
   float: left;
   text-align: right;
+}
+
+blockquote p {
+  font-size: 1.5rem;
+  color: #666;
 }
